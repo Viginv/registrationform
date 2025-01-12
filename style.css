@@ -1,0 +1,78 @@
+body{
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgb(49, 38, 202) 0%, rgb(208, 204, 214) 100%);
+  background-attachment: fixed;
+  margin: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#form{
+   width:500px;
+   margin: 20vh auto 0 auto;
+   background-color: rgba(255, 252, 252, 0.918);
+   border-radius:5px;
+   padding: 30px;
+ 
+
+}
+
+#form button{
+  border:1px solid white;
+  background-color: rgb(117, 79, 153);
+  padding:10px;
+  width: 100%;
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 20px;
+  border-radius: 5px;
+
+}
+
+#form button:hover{
+  opacity:0.5;
+  color:rgb(238, 227, 227);
+  cursor: pointer;
+}
+
+#form button:active{
+  background-color: blue;
+  
+}
+
+
+h1{
+  text-align: center;
+  font-style: inherit;
+  color:rgb(114, 79, 146);
+  font-family: 'Times New Roman', Times, serif;
+}
+.input-group{
+  margin: 20px 0px;
+}
+
+.input-group input{
+ width:300px;
+ float:right;
+ font-size: 14px;
+border:1px solid white;
+ padding:3px;
+
+}
+
+.input-group input:focus {
+  outline: 0;
+}
+
+.input-group .error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 4px;
+  margin-left: 160px; 
+}
+ 
+.input-group.sucess input{
+  border-color: rgb(199, 66, 66);
+}
+.input-group.error input{
+  border-color:red;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css"> 
+
+  <!--defer Html document load after then in javascript load-->
+<script src="app.js" defer></script>
+</head>
+<body>
+
+<div class="container">
+
+<form action="" id="form">
+<h1>
+  Register Form
+</h1>
+
+<div class="input-group">
+<lable for="Username">User name</lable>       <!--required-->
+
+<input type="text" id="username" name="username" placeholder="Enter your name">
+<div class="error"></div>
+</div>
+
+<div class="input-group">
+<lable for="Email">Email</lable>
+<input type="text" id="email" name="email" placeholder="Enter yor email">
+<div class="error"></div>  
+</div>
+
+<div class="input-group">
+<lable for="password">password</lable>
+<input type="password" id="password" name="password" placeholder="password">
+<div class="error"></div> 
+</div>
+
+
+<div class="input-group">
+<lable for="cpassword">Conform Password</lable>
+<input type="password" id="cpassword" name="cpassword">
+<div class="error"></div>
+</div>
+
+<button type="submit">Register</button>
+
+</form>
+
+</div>
+</section>
+
+
+</body>
+</html>
